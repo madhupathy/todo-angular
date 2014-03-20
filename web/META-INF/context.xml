@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="IEITest" path="/IEITest" reloadable="true" debug="0" >
+<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/Todo" type="javax.sql.DataSource" url="jdbc:mysql://ec2-23-21-211-172.compute-1.amazonaws.com:3306/todo-angular?autoReconnect=true" username="todo-angular" password="todo-angular"
+	minEvictableIdleTimeMillis="10000"
+	validationQuery="SELECT 1"
+	testOnBorrow="true"
+	testWhileIdle="true"
+	removeAbandoned="true"
+	removeAbandonedTimeout="60"
+/>
+ 
+</Context>
